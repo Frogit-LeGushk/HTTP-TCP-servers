@@ -1,0 +1,88 @@
+body {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("fon/jojo.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.knopochka {
+    border: 3px solid coral;
+    border-radius: 25%;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: coral;
+    color: white;
+
+}
+
+.knopochka:hover {
+  box-shadow: 0 0 0 1px coral;
+  background-color: rgb(56, 60, 69);
+}
+
+.flex {
+  border: 10px double coral;
+  background-color: rgb(56, 60, 69);
+  border-radius: 20px;
+  flex-direction: column-reverse;
+  display: flex;
+  max-width: 385px;
+  /* height: 400px; */
+  margin: 1rem auto;
+  padding: 20px; 
+}
+
+.zero {
+  width: 120px;
+}
+
+.op {
+  border: 3px solid coral;
+  background-color: dimgray;
+  color: white;
+}
+
+.res {
+  width: 120px;
+  background-color: dimgray;
+  border: 3px solid coral;
+}
+
+.bot {
+  display: flex;
+  flex-direction: row;
+}
+
+.screen p {
+  font-size: 3rem;
+  color: aliceblue;
+  display: grid;
+  justify-items: end;
+  align-items: end;
+  overflow-x: scroll;
+  margin: 0;
+}
+
+.point {
+  background-color: coral;
+  color:aliceblue;
+}
+
+video {
+  border-radius: 20px;
+}
+
+a {
+  color: rgb(43, 161, 252);
+  font-size: 1.5rem;
+  text-align: center;
+}
