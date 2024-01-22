@@ -1,7 +1,9 @@
 # HTTP and TCP servers:
 ### Screencast http server:
+запускаем HTTP сервер, который выдает статический контент в браузере (калькулятор на js)
 ![alt text](https://github.com/Acool4ik/HTTP-TCP-servers/blob/master/images/screencast_http.gif)
 ### Screencast tcp server and client:
+Пример работы сетевой библиотеки (над tcp сокетом)
 ![alt text](https://github.com/Acool4ik/HTTP-TCP-servers/blob/master/images/screencast_tcp.gif)
 ### Description:
 Wrapper for test tcp server is implemented in file `net.c` and have API in file `net.h`
